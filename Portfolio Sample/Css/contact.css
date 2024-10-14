@@ -1,0 +1,137 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    height:700px;
+    background-image:url("../Assests/images/e-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+
+}
+#tr{
+         color:white;
+}
+#tr:hover{
+          color:green;
+}
+#c1{
+    width: 100vw;
+    position: fixed;
+    top:0;
+    z-index: +3;
+   }
+#c2{
+    background-color:rgba(0, 0, 0, 0.9);
+    width:94vw;
+    margin-top:100px;
+    margin-left:30px;  
+    padding-bottom:50px;
+    height:850px;
+    }
+ #c3{
+        color:white;
+    }
+#c3::after{
+           content:" ";
+           height:3px;
+           width:120px;
+           display: inline-block;
+           background-color:green;
+           margin:4px 10px 4px 10px;
+         }
+.contact{
+          width:540px;
+          height:130px;
+          background-color:rgba(40, 38, 38, 0.534); 
+           display: flex;
+           flex-wrap: wrap;
+           
+        }
+.con{
+       width:60px;
+       height:60px;
+       border-radius:50%;
+       background-color:grey;
+       margin-left:20px;
+       margin-top:25px;
+       
+    }
+.fa-location-dot{
+                   font-size:30px;
+                   color:green;
+                   margin-left:19px;
+                   margin-top:15px;
+                }
+#f{
+    margin-top:30px;
+    color:grey;
+  }
+.fa-share-nodes{
+                 font-size:30px;
+                  color:green;
+                  margin-left:17px;
+                  margin-top:15px;
+               }
+.fa-envelope{
+               font-size:30px;
+                color:green;
+                margin-left:15px;
+                 margin-top:15px;
+            }
+.fa-phone{
+            font-size:30px;
+             color:green;
+             margin-left:15px;
+            margin-top:15px;
+         }
+.form{
+        width:87vw;
+        height:400px;
+        background-color:rgba(40, 38, 38, 0.534); 
+       margin-top:40px;
+     }
+#f3{
+     margin-top:30px;
+     width:35vw;
+     margin-left:40px;
+     color:white;
+     background-color:rgb(175 117 117 / 68%); 
+     border:none;
+}
+#f4{
+    margin-top:30px;
+     width:79vw;
+     margin-left:40px;
+     color:gainsboro;
+     background-color:rgba(40, 38, 38, 0.678); 
+     border:none;
+}
+#f5{
+    margin-top:20px;
+     width:79vw;
+     height:150px;
+     margin-left:40px;
+     color:gainsboro;
+     background-color:rgba(40, 38, 38, 0.678); 
+     border:none;
+}
+.btn-grp{
+      margin-top:20px;
+      text-align: center
+     }
+
+
+
+     @media screen and (max-width:600px){
+        #f5{
+             width:59vw;
+             
+        }
+
+        .contact{
+            width:390px;
+             
+          }
+     }

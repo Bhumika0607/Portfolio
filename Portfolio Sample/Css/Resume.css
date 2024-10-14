@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    height:700px;
+    background-image:url("../Assests/images/e-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+
+}
+#tr{
+         color:white;
+}
+#tr:hover{
+          color:green;
+}
+#c1{
+    width: 100vw;
+    position: fixed;
+    top:0;
+    z-index: +3;
+   }
+#c2{
+    background-color:rgba(0, 0, 0, 0.9);
+    width:94vw;
+    margin-top:100px;
+    margin-left:30px;  
+    padding-bottom:50px;
+    height:auto;
+    }
+#c3{
+     color:white;
+   }
+#c3::after{
+        content:" ";
+        height:3px;
+        width:120px;
+        display: inline-block;
+        background-color:green;
+        margin:4px 10px 4px 10px;
+      }
+#on{
+    background-color: rgba(40, 38, 38, 0.534);
+}
+@media screen and (max-width){
+    #c2{
+        background-color:rgba(0, 0, 0, 0.9);
+        width:94vw;
+        margin-top:100px;
+        margin-left:30px;  
+        padding-bottom:50px;
+        height:auto;
+        }
+    #c1{
+        width:100%;
+    }
+}
+    
+
+
+            
+           

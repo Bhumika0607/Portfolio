@@ -1,0 +1,150 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    height:700px;
+    background-image:url("../Assests/images/e-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+
+}
+#tr{
+         color:white;
+}
+#tr:hover{
+          color:green;
+}
+.c1{
+    width: 100vw;
+    position: fixed;
+    top:0;
+    z-index:3;
+}
+#c2{
+    background-color:rgba(0, 0, 0, 0.9);
+    width:94vw;
+    margin-top:100px;
+    margin-left:30px;  
+    padding-bottom:100px;
+    
+}
+#c3{
+    color:white;
+}
+#c3::after{
+            content:" ";
+            height:3px;
+            width:120px;
+            display: inline-block;
+            background-color:green;
+            margin:4px 10px 4px 10px;
+          }
+.section-title p{
+                  text-transform: uppercase;
+                  color:white;
+                  font-size: xx-large;
+                  font-family:sans-serif;
+                  font-weight: 700;
+               }
+.content h3{
+                   color:green;
+                   padding-top:20px;
+           }
+.fa-greater-than{
+                   color:green;
+                }
+ li strong{
+                margin-left:5px;
+                color:green;
+          }
+ li span{
+           margin-left:5px;
+           color:white;
+        }
+li{
+    list-style: none;
+    padding-bottom:6px;
+}
+.count-box i{
+              margin-top:-50px;
+              margin-left:90px;
+              position: absolute;
+              align-items: center;
+              
+            }
+.count-box{
+            padding: 30px 20px 30px 20px;
+            position: relative;
+            background-color: rgba(40, 38, 38, 0.534);
+            
+        
+          }
+.count-box span{
+              margin-left:90px;
+              
+           }
+.section-title h5::after{
+                        content:" ";
+                         height:3px;
+                         width:120px;
+                        display: inline-block;
+                         background-color:green;
+                        margin:4px 10px 4px 10px;
+                        }
+.val{
+      color:white;
+      font-size:20px;
+      float: right;
+    }
+.progress-bar{
+               background-color:green;
+             }
+.icon-box{
+           padding:20px;
+           background-color: rgba(40, 38, 38, 0.534);
+         }
+.icon-box i{
+             color:#ffbb2c;
+           }
+.testnomial h5::after{
+                     content:" ";
+                     height:3px;
+                     width:120px;
+                     display: inline-block;
+                     background-color:green;
+                     margin:4px 10px 4px 10px;
+                   }
+.test-sec{
+            width:340px;
+            height:200px;
+            background-color: rgba(40, 38, 38, 0.534);
+         }
+.fa-quote-left{
+                 color:black;
+                 margin-top:20px;
+                 margin-left:20px;
+              }
+.text{
+      margin-top:-20px;
+     }  
+.fa-quote-right{
+                 color:black;
+                 margin-bottom:20px;
+               } 
+.tat{
+      width:100px;
+      height:100px;
+      background-color:rgba(40, 38, 38, 0.559); 
+      border-radius:50%;
+      margin-left:50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    } 
+#at{
+     border-radius:50%;
+     
+   }   
